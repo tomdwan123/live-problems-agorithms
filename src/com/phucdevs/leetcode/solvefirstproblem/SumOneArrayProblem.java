@@ -34,4 +34,16 @@ package com.phucdevs.leetcode.solvefirstproblem;public class SumOneArrayProblem 
 
         return sum;
     }
+
+    static int[] runningSumAdvanced(int[] nums) {
+
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i - 1];
+        }
+
+        // running complexity: O(N)
+        // space complexity: O(1)
+
+        return nums;
+    }
 }
