@@ -12,6 +12,8 @@ public class ReverseString {
     }
 
     private static void helper(int index, char[] str) {
+        StringBuilder sn = new StringBuilder();
+        sn.toString();
         if (str == null || index >= str.length) {
             return;
         }
