@@ -1,4 +1,4 @@
-package com.phucdevs.leetcode.recursion;
+package com.phucdevs.leetcode.recursion.relation;
 
 public class ReverseStringToArray {
 
